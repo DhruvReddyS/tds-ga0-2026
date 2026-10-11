@@ -1,0 +1,15 @@
+name: TDS GA0 Workflow
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: 23f3001736@ds.study.iitm.ac.in
+        run: echo "Hello from TDS GA0"
